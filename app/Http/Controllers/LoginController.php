@@ -8,7 +8,6 @@ use App\Models\User;
 
 class LoginController extends Controller
 {
-
     protected $redirectTo = 'profeseur/dashboard';
     public function login(Request $request)
     {   echo 'hello' ;
