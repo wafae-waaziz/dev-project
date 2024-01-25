@@ -335,8 +335,8 @@
                     <li>
                         <a href="#">FACULTE</a>
                         <ul>
-                            <li><a href="#">Infos Filières</a></li>
-                            <li><a href="#">Annonces Départements</a></li>
+                            <li><a href="./faculte/filières.blade.php">Nos Fillières </a></li>
+                            <li><a href="./faculte/depar.blade.php">Nos départements </a></li>
                         </ul>
                     </li>
                     <li>

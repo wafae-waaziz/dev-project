@@ -88,4 +88,8 @@ Route::group(['middleware' => ['auth', 'role:responsable_filiere']], function ()
 });
 Route::get('/annonces/create', [AnnonceController::class, 'showCreateForm'])->name('annonces.create.form');
 Route::post('/annonces/create', [AnnonceController::class, 'create'])->name('annonces.create');
+Route::get('/dashboard-respofilière', 'App\Http\Controllers\ResponsableFiliereDashboardController@dashboard');
+Route::get('/dashboard-prof', 'App\Http\Controllers\ResponsableFiliereDashboardController@dashboard');
+
+
 
